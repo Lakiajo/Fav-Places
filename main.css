@@ -1,0 +1,37 @@
+body {
+    font-family: 'Courgette', cursive;
+}
+
+.img {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("https://raw.githubusercontent.com/Lakiajo/Fav-Places/master/Screen%20Shot%202019-04-04%20at%206.37.13%20PM.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#placesDefined {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+}
+.card {
+    height: 400px;
+    width: 500px;
+    background-color: #CEB9A3;
+    font-family: 'Courgette', cursive;
+    margin: 15px;
+    color: rgb(187, 42, 105);
+    border: 2px solid rgb(222, 5, 100);
+}
+#title {
+    color: rgb(187, 42, 105);
+    font-family: 'Courgette', cursive;
+    font-size: 60px;
+    text-align: center;
+}

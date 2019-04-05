@@ -1,0 +1,55 @@
+{
+"places":[
+    {
+        "id": "place1",
+        "cityName": "Oahu",
+        "cityState": "Hawaii",
+        "cityImage": "https://raw.githubusercontent.com/Lakiajo/Fav-Places/master/IMG_4970.JPG",
+        "favoriteRestaurant": "Eggs N' Things",
+        "favoriteBar": "Didn't Visit any",
+        "favoriteHotel": "",
+        "favoriteTouristAttraction": "Honolulu Museum of Art"
+     },
+     {
+        "id": "place2",
+        "cityName": "Norcross",
+        "cityState": "Georgia",
+        "cityImage": "",
+        "favoriteRestaurant": "Sugo",
+        "favoriteBar": "high",
+        "favoriteHotel": "Hilton Atlanta Northeast",
+        "favoriteTouristAttraction": ""
+     },
+     {
+        "id": "place3",
+        "cityName": "Austin",
+        "cityState": "Texas",
+        "cityImage": "",
+        "favoriteRestaurant": "50",
+        "favoriteBar": "high",
+        "favoriteHotel": "",
+        "favoriteTouristAttraction": ""
+     },
+     {
+        "id": "place4",
+        "cityName": "Los Angeles",
+        "cityState": "California",
+        "cityImage": "",
+        "favoriteRestaurant": "50",
+        "favoriteBar": "high",
+        "favoriteHotel": "",
+        "favoriteTouristAttraction": ""
+     },
+     {
+        "id": "Place5",
+        "cityName": "Daytona",
+        "cityState": "Florida",
+        "cityImage": "",
+        "favoriteRestaurant": "50",
+        "favoriteBar": "high",
+        "favoriteHotel": "",
+        "favoriteTouristAttraction": ""
+     }
+
+   ]
+}
