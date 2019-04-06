@@ -23,13 +23,13 @@ const domStringBuilder = (arrayToPrint) => {
     places.forEach((place) => {
         domString += `<div class="card">`;
         // domString += `<div class="card-body">`;
-        domString += `<h5>${place.cityName}</h5>`;
-        domString += `<h5>${place.cityState}</h5>`;
+        domString += `<h5 class="ontop">${place.cityName}</h5>`;
+        domString += `<h5 class="ontop">${place.cityState}</h5>`;
         // domString += `<img src=${place[arrayToPrint].cityImage}></img>`;
-        domString += `<h5>${place.favoriteRestaurant}</h5>`;
-        domString += `<h5>${place.favoriteBar}</h5>`;
-        domString += `<h5>${place.favoriteHotel}</h5>`;
-        domString += `<h5>${place.favoriteTouristAttraction}</h5>`;
+        domString += `<h5 class="ontop">${place.favoriteRestaurant}</h5>`;
+        domString += `<h5 class="ontop">${place.favoriteBar}</h5>`;
+        domString += `<h5 class="ontop">${place.favoriteHotel}</h5>`;
+        domString += `<h5 class="ontop">${place.favoriteTouristAttraction}</h5>`;
         // domString += `</div>`;
         domString += `</div>`;
     });
