@@ -1,7 +1,6 @@
 body {
     font-family: 'Great Vibes', cursive;
 }
-
 .img {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url("https://raw.githubusercontent.com/Lakiajo/Fav-Places/master/Screen%20Shot%202019-04-04%20at%206.37.13%20PM.png");
     background-repeat: repeat;
@@ -13,17 +12,18 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-
 h5 {
     font-size: 24px;
 }
-
 #placesDefined {
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
-    
 }
+.ontop {
+    align-items: center;
+}
+
 .card {
     height: 400px;
     width: 500px;
@@ -41,4 +41,10 @@ h5 {
     font-family: 'Great Vibes', cursive;
     font-size: 60px;
     text-align: center;
+}
+.cityImage {
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgb(187, 42, 105); 
+    align-items: center;
 }

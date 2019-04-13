@@ -25,7 +25,7 @@ const domStringBuilder = (arrayToPrint) => {
         // domString += `<div class="card-body">`;
         domString += `<h5 class="ontop">${place.cityName}</h5>`;
         domString += `<h5 class="ontop">${place.cityState}</h5>`;
-        // domString += `<img src=${place[arrayToPrint].cityImage}></img>`;
+        domString += `<img src=${place.cityImage} class="cityImage">`;
         domString += `<h5 class="ontop">${place.favoriteRestaurant}</h5>`;
         domString += `<h5 class="ontop">${place.favoriteBar}</h5>`;
         domString += `<h5 class="ontop">${place.favoriteHotel}</h5>`;
